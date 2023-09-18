@@ -27,3 +27,11 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
+
+# Login Admin
+* link-> /webadmin/
+* username : admin
+* password : zxcv123!
+
+# Link Database
+https://drive.google.com/drive/folders/1Zo2Wzym6LyLzXeS8ZWgpA1Wcklo0GGsO?usp=sharing
