@@ -1,0 +1,500 @@
+/* WEBAPPS CSS SYSTEM */
+/* Created by: Sugianto */
+
+/* Rules:; */
+/* font-color: #1d1d1d */
+
+
+
+/* MAIN */
+	* {
+	    text-rendering: optimizeLegibility;
+
+	    -moz-osx-font-smoothing: grayscale;
+	    -webkit-font-smoothing: antialiased;
+	}
+
+	a,
+	a:hover,
+	a:active {
+		color: #1d1d1d;
+	}
+
+	body {
+		font-family: Work Sans Regular;
+		font-size: 12px;
+	}
+
+	button.main {
+		background-color: #1d1d1d;
+		border: 1px solid #1d1d1d;
+		color: #fff;
+		cursor: pointer;
+		margin-top: 3px;
+		padding: 10px 30px;
+		text-align: center;
+		transition: .2s all;
+	}
+
+	button.small {
+		font-size: 11px;
+		padding: 7.5px 15px;
+	}
+
+	button.xs {
+		font-size: 11px;
+		padding: 3.5px 10.5px;
+	}
+
+	button.main:hover,
+	button.main:active {
+		background-color: #fff;
+		color: #1d1d1d;
+	}
+
+	input.pagination {
+		border: 1px solid #1d1d1d;
+		width: 45px;
+		padding: 2px;
+		text-align: center;
+	}
+
+	.ui.item.on {
+		background-color: #1d1d1d;
+		color: #fff;
+	}
+
+	.ui.segment.patient-history {
+		margin: 0;
+		padding: 15px 15px 0;
+	}
+/* END MAIN */
+
+
+
+
+/* LOGIN */
+	.login-container {
+		align-items: center;
+		display: flex;
+		height: 100vh;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.login-container .base {
+		max-width: 100%;
+		padding: 0;
+		width: 600px;
+	}
+
+	.login-container .base .logo {
+		text-align: center;
+		padding: 45px 15px;
+	}
+
+	.login-container .base .logo img {
+		width: 105px;
+	}
+
+	.login-container .form {
+		 padding: 15px;
+	}
+
+	.login-container .form .title {
+		font-family: Work Sans Semi Bold;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.login-container .form .form-container {
+		margin-top: 15px;
+		padding: 0 60px;
+	}
+
+	.login-container .footer {
+		font-size: 12px;
+		text-align: center;
+	}
+/* END LOGIN */
+
+
+
+
+/* NAVIGATION */
+	.main-navigation {
+		background-color: #fff;
+		box-shadow: 0px 0px 5px 0px rgba(29, 29, 29, 1);
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+
+		-moz-box-shadow: 0px 0px 5px 0px rgba(29, 29, 29, 1);
+		-webkit-box-shadow: 0px 0px 5px 0px rgba(29, 29, 29, 1);
+	}
+
+	.main-navigation .logo {
+		padding: 7.5px 15px;
+	}
+
+	.main-navigation .logo img {
+		width: 90px;
+	}
+
+	.main-navigation .menu {
+		border-bottom: none;
+		border-radius: 0;
+		border-top: 1px solid rgba(29, 29, 29, .2);
+		padding: 0 !important;
+		width: 100%;
+	}
+/* END NAVIGATION */
+
+
+
+
+/* CONTAINER INDEX */
+	.container {
+		padding: 92.5px 15px 15px;
+	}
+
+	.container .greetings {
+		font-family: Work Sans Semi Bold;
+		font-size: 18px;
+	}
+
+	.pagination-input {
+		margin: 0 15px;
+	}
+
+	.form-container,
+	.table-container {
+		padding: 0 15px 15px;
+	}
+
+	.history-container {
+		border-left: 1px solid #bbb;
+	}
+
+	.history-container .list {
+		padding: 18px 30px;
+		position: relative;
+	}
+
+	.history-container .list:before {
+		background-color: #bbb;
+		border-radius: 50%;
+		content: '';
+		height: 20px;
+		left: -11px;
+		position: absolute;
+		top: 18.5px;
+		width: 20px;
+	}
+
+	.history-container .list.active:before {
+		background-color: #1d1d1d;
+	}
+/* END CONTAINER INDEX */
+
+
+
+
+/* UTILITIES */
+	.align-items-center {
+		align-items: center;
+	}
+
+	.border-bottom {
+		border-bottom: 1px solid rgba(29, 29, 29, .15);
+	}
+
+	.border-right {
+		border-right: 1px solid rgba(29, 29, 29, .15);
+	}
+
+	.border-top-1-solid-333 {
+		border-top: 1px solid #000;
+	}
+
+	.circle-image {
+		border: 5px solid #1d1d1d;
+		border-radius: 50%;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+	.color-bbb {
+		color: #bbb;
+	}
+
+	.color-white {
+		color: #fff;
+	}
+
+	.display-flex {
+		display: flex;
+	}
+
+	.display-none {
+		display: none;
+	}
+
+	.flex-basis-50 {
+		flex-basis: 50%;
+	}
+
+	.font-10 {
+		font-size: 10px !important;
+	}
+
+	.font-12 {
+		font-size: 12px !important;
+	}
+
+	.font-14 {
+		font-size: 14px !important;
+	}
+
+	.font-16 {
+		font-size: 16px !important;
+	}
+
+	.font-18 {
+		font-size: 18px !important;
+	}
+
+	.font-20 {
+		font-size: 20px !important;
+	}
+
+	.font-22 {
+		font-size: 22px !important;
+	}
+
+	.font-24 {
+		font-size: 24px !important;
+	}
+
+	.font-26 {
+		font-size: 26px !important;
+	}
+
+	.font-28 {
+		font-size: 28px !important;
+	}
+
+	.font-30 {
+		font-size: 30px !important;
+	}
+
+	.font-32 {
+		font-size: 32px !important;
+	}
+
+	.font-bold {
+		font-family: Work Sans Bold;
+	}
+
+	.font-italic {
+		font-family: Work Sans Italic;
+	}
+
+	.font-regular {
+		font-family: Work Sans Regular;
+	}
+
+	.font-semibold {
+		font-family: Work Sans Semi Bold;
+	}
+
+	.justify-content-center {
+		justify-content: center;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-left {
+		text-align: left;
+	}
+
+	.text-right {
+		text-align: right;
+	}
+
+	.margin-auto {
+		margin: auto;
+	}
+
+	.margin-bottom-15px {
+		margin-bottom: 15px;
+	}
+
+	.margin-bottom-30px {
+		margin-bottom: 30px;
+	}
+
+	.margin-bottom-45px {
+		margin-bottom: 45px;
+	}
+
+	.margin-bottom-60px {
+		margin-bottom: 60px;
+	}
+
+	.margin-top-7-5px {
+		margin-top: 7.5px !important;
+	}
+
+	.margin-top-15px {
+		margin-top: 15px;
+	}
+
+	.margin-top-30px {
+		margin-top: 30px;
+	}
+
+	.margin-top-45px {
+		margin-top: 45px;
+	}
+
+	.margin-top-60px {
+		margin-top: 60px;
+	}
+
+	.no-padding {
+		padding: 0 !important;
+	}
+
+	.overflow-auto {
+		overflow: auto;
+	}
+
+	.padding-7-5 {
+		padding: 7.5px;
+	}
+
+	.padding-15 {
+		padding: 15px;
+	}
+
+	.padding-bottom-15px {
+		padding-bottom: 15px;
+	}
+
+	.padding-bottom-30px {
+		padding-bottom: 30px;
+	}
+
+	.padding-bottom-45px {
+		padding-bottom: 45px;
+	}
+
+	.padding-bottom-60px {
+		padding-bottom: 60px;
+	}
+
+	.padding-top-0 {
+		padding-top: 0 !important;
+	}
+
+	.padding-top-15px {
+		padding-top: 15px;
+	}
+
+	.padding-top-30px {
+		padding-top: 30px;
+	}
+
+	.padding-top-45px {
+		padding-top: 45px;
+	}
+
+	.padding-top-60px {
+		padding-top: 60px;
+	}
+
+	.width-5 {
+		width: 5%;
+	}
+
+	.width-10 {
+		width: 10%;
+	}
+
+	.width-15 {
+		width: 15%;
+	}
+
+	.width-20 {
+		width: 20% !important;
+	}
+
+	.width-25 {
+		width: 25%;
+	}
+
+	.width-30 {
+		width: 30%;
+	}
+
+	.width-35 {
+		width: 35%;
+	}
+
+	.width-40 {
+		width: 40%;
+	}
+
+	.width-45 {
+		width: 45%;
+	}
+
+	.width-50 {
+		width: 50%;
+	}
+
+	.width-55 {
+		width: 55%;
+	}
+
+	.width-60 {
+		width: 60%;
+	}
+
+	.width-65 {
+		width: 65%;
+	}
+
+	.width-70 {
+		width: 70%;
+	}
+
+	.width-75 {
+		width: 75%;
+	}
+
+	.width-80 {
+		width: 80%;
+	}
+
+	.width-85 {
+		width: 85%;
+	}
+
+	.width-90 {
+		width: 90%;
+	}
+
+	.width-95 {
+		width: 95%;
+	}
+
+	.width-100 {
+		width: 100%;
+	}
+/* END UTILITIES

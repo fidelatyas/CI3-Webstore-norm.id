@@ -1,0 +1,83 @@
+/* SEMANTIC OVERRIDE */
+	.ui.menu,
+	.ui.table,
+	.ui.modal,
+	.ui.breadcrump,
+	.ui.form,
+	.ui.dropdown .menu > .item {
+		font-size: 12px !important;
+	}
+
+	.ui.styled.accordion,
+	.ui.styled.accordion .accordion {
+		border-radius: 0;
+	}
+
+	.ui.breadcrumb a {
+		color: #1d1d1d !important;
+	}
+
+	.ui.input > input {
+		border-radius: 0;
+	}
+
+	.ui.menu .item {
+	    border-radius: 0 !important;
+	    border-left: 1px solid transparent;
+	    padding: 7.5px 15px;
+	}
+
+	.ui.link.menu .item:hover,
+	.ui.menu .dropdown.item:hover,
+	.ui.menu .link.item:hover,
+	.ui.menu a.item:hover,
+	.ui.menu .active.item {
+	    background: #1d1d1d;
+	    border-left: 1px solid #fff;
+	    color: #fff;
+	    font-weight: 400;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	}
+
+	.ui.menu .dropdown.item .menu {
+		border-radius: 0 !important;
+		width: auto;
+	}
+
+	.ui.menu .ui.dropdown .menu > .item {
+		border: none !important;
+		border-radius: 0 !important;
+	}
+
+	.ui.menu .ui.dropdown .menu > .item:hover,
+	.ui.menu .ui.dropdown .menu > .item.active  {
+		background-color: #1d1d1d !important;
+		color: #fff !important;
+	}
+
+	.ui[class*="top attached"].menu,
+	.ui.segment[class*="bottom attached"] {
+		border-radius: 0;
+	}
+
+	.ui.table {
+		border: none;
+		border-radius: 0;
+	}
+
+	.ui.page.dimmer {
+		z-index: 11000;
+	}
+
+	.ui.breadcrumb .active.section,
+	.ui.breadcrumb .section {
+		font-size: 12px;
+	}
+
+	.ui.segment {
+		border-radius: 0;
+		border: none;
+		box-shadow: unset;
+	}
+/* END SEMANTIC OVERRIDE */

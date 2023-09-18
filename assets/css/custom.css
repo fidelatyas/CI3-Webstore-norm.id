@@ -1,0 +1,153 @@
+/* OWL CAROUSEL OVERRIDE */
+	.address-carousel .owl-stage {
+		padding-left: 0 !important;
+	}
+
+	.banner-carousel .owl-dots {
+		bottom: 30px;
+		position: absolute;
+		width: 100%;
+	}
+
+	.banner-carousel .owl-dots .owl-dot,
+	.review-carousel .owl-dots .owl-dot {
+		border-radius: 5px;
+	}
+
+	.owl-dots {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+	}
+
+	.owl-dot {
+		background-color: rgba(29, 29, 29, .4);
+		border-radius: 50%;
+		cursor: pointer;
+		height: 5px;
+		margin: 0 3.75px;
+		width: 5px;
+	}
+
+	.owl-dot.active {
+		background-color: #25292B;
+		height: 5px;
+		width: 5px;
+	}
+
+	.review-carousel .owl-dot.active {
+		background-color: #fff;
+	}
+
+	.owl-nav.disabled {
+		display: none;
+	}
+
+	.owl-dots.disabled {
+		display: none;
+	}
+/* END OWL CAROUSEL OVERRIDE */
+
+
+
+
+/* GOOGLE OVERRIDE */
+	.g-signin2.dark .abcRioButton {
+		margin: auto;
+	}
+
+	.g-signin2.dark .abcRioButton:hover {
+		box-shadow: unset !important;
+	}
+
+	.g-signin2.dark .abcRioButton .abcRioButtonContentWrapper {
+		transition: .4s all !important;
+	}
+
+	.g-signin2.dark .abcRioButton:hover .abcRioButtonContentWrapper {
+		background-color: #fff !important;
+		color: #25292B !important;
+		transition: .4s all !important;
+	}
+
+	.g-signin2.dark .abcRioButtonBlue, .abcRioButtonBlue:hover {
+		background-color: #25292B !important;
+		color: #fff;
+	}
+
+	.g-signin2.dark .abcRioButtonBlue .abcRioButtonContentWrapper {
+	    border: 1px solid #fff !important;
+	    border-radius: 5px;
+	}
+
+	.g-signin2.dark .abcRioButton.abcRioButtonBlue {
+		width: 100% !important;
+	}
+
+	.g-signin2.dark .abcRioButtonContents span {
+		font-family: Work Sans Semi Bold !important;
+		text-transform: uppercase;
+	}
+
+
+
+
+	.g-signin2.light .abcRioButton {
+		margin: auto;
+	}
+
+	.g-signin2.light .abcRioButton:hover {
+		box-shadow: unset !important;
+	}
+
+	.g-signin2.light .abcRioButton .abcRioButtonContentWrapper {
+		transition: .4s all !important;
+	}
+
+	.g-signin2.light .abcRioButton:hover .abcRioButtonContentWrapper {
+		background-color: #25292B !important;
+		color: #fff !important;
+		transition: .4s all !important;
+	}
+
+	.g-signin2.light .abcRioButtonIcon {
+		background-color: #25292B;
+	}
+
+	.g-signin2.light .abcRioButtonBlue, .abcRioButtonBlue:hover {
+		background-color: #fff !important;
+		color: #25292B;
+	}
+
+	.g-signin2.light .abcRioButtonBlue .abcRioButtonContentWrapper {
+	    border: 1px solid #25292B !important;
+	    border-radius: 5px;
+	}
+
+	.g-signin2.light .abcRioButton.abcRioButtonBlue {
+		width: 100% !important;
+	}
+
+	.g-signin2.light .abcRioButtonContents span {
+		font-family: Work Sans Semi Bold !important;
+		text-transform: uppercase;
+	}
+/* END GOOGLE OVERRIDE */
+
+
+
+
+/* YOTPO OVERRIDE */
+	.text-m {
+		margin-left: 15px !important;
+	}
+
+	.yotpo-logo-link-new {
+		display: none !important;
+	}
+
+	.yotpo .yotpo-first-review .yotpo-first-review-stars .yotpo-icon-star {
+		color: #25292b !important;
+	}
+/* END YOTPO OVERRIDE  */
